@@ -1,0 +1,29 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-main",
+      "description": "Premium tech interface with iPhone and Macbook",
+      "imageUrl": "https://picsum.photos/seed/iremovalhero/1920/1080",
+      "imageHint": "cybersecurity technology"
+    },
+    {
+      "id": "service-t2",
+      "description": "Apple T2 Security Chip illustration",
+      "imageUrl": "https://picsum.photos/seed/t2chip/600/400",
+      "imageHint": "computer processor"
+    },
+    {
+      "id": "service-signal",
+      "description": "iPhone showing active signal bars",
+      "imageUrl": "https://picsum.photos/seed/signalservice/600/400",
+      "imageHint": "iphone signal"
+    },
+    {
+      "id": "app-interface",
+      "description": "iRemoval Pro software desktop interface",
+      "imageUrl": "https://picsum.photos/seed/appui/800/600",
+      "imageHint": "software dashboard"
+    }
+  ]
+}

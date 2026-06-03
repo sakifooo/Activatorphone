@@ -1,0 +1,101 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 14% 13%;
+    --foreground: 215 20% 65%;
+    --primary: 178 78% 27%;
+    --primary-foreground: 0 0% 100%;
+    --border: 178 78% 27%;
+    --radius: 2px;
+  }
+
+  body {
+    @apply bg-[#1d2026] text-[#8a94a7] font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-white font-semibold clear-both;
+  }
+}
+
+.font-body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.is-boxed {
+  background: #0f7b78;
+}
+
+.body-wrap {
+  @apply bg-[#1d2026] overflow-hidden flex flex-col min-h-screen max-w-[1440px] mx-auto shadow-2xl;
+}
+
+/* iRemoval Pro Hero Elements */
+.hero-figure-box {
+  @apply absolute top-0;
+  will-change: transform;
+}
+
+.hero-figure-box-01 {
+  left: 103.2%;
+  top: 41.9%;
+  width: 28.03%;
+  height: 37.37%;
+  background: linear-gradient(to left top, #9bc0c2, rgba(0, 191, 251, 0));
+  transform: rotateZ(45deg);
+}
+
+.hero-figure-box-02 {
+  left: 61.3%;
+  top: 64.1%;
+  width: 37.87%;
+  height: 50.5%;
+  background: linear-gradient(to left top, #66a3a4, rgba(2, 112, 215, 0));
+  transform: rotateZ(-45deg);
+}
+
+.hero-figure-box-05 {
+  left: 17.4%;
+  top: 13.3%;
+  width: 64%;
+  height: 73.7%;
+  background-color: #0f7b78;
+  box-shadow: -20px 32px 64px rgba(0, 0, 0, .25);
+  transform: perspective(500px) rotateY(-15deg) rotateX(8deg) rotateZ(-1deg);
+  background-image: url("https://picsum.photos/seed/activator/800/600");
+  background-size: cover;
+}
+
+.button-primary {
+  @apply bg-[#227b7a] text-white font-bold uppercase tracking-wider px-8 py-4 rounded-sm transition-all;
+  background: linear-gradient(65deg, #0fb7b3 0, #227b7a 100%);
+}
+
+.button-primary:hover {
+  background: linear-gradient(65deg, #227b7a 0, #0fb7b3 100%);
+}
+
+.pricing-table-inner {
+  @apply bg-[#2c3039] p-6 h-full relative border border-white/5;
+}
+
+.pricing-table-features li {
+  @apply flex items-center py-3 border-b border-white/5 text-sm;
+}
+
+.pricing-table-features li::before {
+  content: '';
+  width: 16px;
+  height: 12px;
+  margin-right: 16px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTUuNiA2LjRMMS42IDQgMCA1LjYgNS42IDEyIDE2IDEuNiAxNC40IDB6IiBmaWxsPSIjMDJDQkIxIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=);
+  background-repeat: no-repeat;
+}
+
+.listbuilder-popup-content {
+  @apply bg-white rounded-lg shadow-2xl p-8 max-w-lg w-full mx-auto fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[10000];
+}
