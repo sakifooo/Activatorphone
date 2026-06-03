@@ -17,7 +17,7 @@ export default function Hero() {
               <div>
                 <p className="hero-paragraph text-lg mb-2 text-[#8a94a7]">Activatorphone premium v0.4</p>
                 <Button asChild className="button-primary h-auto py-4 px-10">
-                  <Link href="https://mega.nz/folder/XyBlwQyb#9fX9Bu7_I57OE4t2FjgJpQ">Download Premium</Link>
+                  <Link href="https://www.mediafire.com/folder/5qa8i308xki7p/Activatorphone+premium+v0.4">Download Premium</Link>
                 </Button>
               </div>
             </div>
