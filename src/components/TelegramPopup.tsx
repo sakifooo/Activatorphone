@@ -44,7 +44,7 @@ export default function TelegramPopup() {
 
           <div className="pt-4">
             <a 
-              href="https://t.me/YYTOOLS" 
+              href="https://t.me/iosremoval" 
               target="_blank" 
               className="inline-block bg-[#0f7b78] hover:bg-[#0d6663] text-white font-bold px-12 py-3 rounded-sm transition-all text-sm uppercase tracking-widest shadow-lg"
             >
