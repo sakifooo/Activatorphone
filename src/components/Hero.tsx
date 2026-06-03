@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="hero-inner">
           <div className="hero-copy">
             <h1 className="hero-title mt-0 text-white font-bold uppercase tracking-tight">
-              ACTIVATORPHONE
+              ACTIVATOR PHONE
             </h1>
             <div className="hero-cta space-y-6">
               <div>
