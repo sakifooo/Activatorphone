@@ -11,7 +11,7 @@ export default function Footer() {
               <span className="text-primary">A</span>CTIVATOR<span className="text-primary">P</span>HONE
             </h5>
             <p className="text-sm max-w-xs text-[#8a94a7]">
-              &copy; 2020-2025 ACTIVATORPHONE LTD, All rights reserved.
+              &copy; 2020-2026 ACTIVATORPHONE LTD, All rights reserved.
             </p>
           </div>
           
@@ -19,7 +19,7 @@ export default function Footer() {
             <li><Link href="#" className="text-sm text-[#8a94a7] hover:text-[#0fb7b3]">Terms of Agreement</Link></li>
             <li><Link href="#" className="text-sm text-[#8a94a7] hover:text-[#0fb7b3]">Privacy Policy</Link></li>
             <li><Link href="#" className="text-sm text-[#8a94a7] hover:text-[#0fb7b3]">Refund Policy</Link></li>
-            <li><Link href="https://t.me/YYTOOLS" className="text-sm text-[#8a94a7] hover:text-[#0fb7b3]">Contact</Link></li>
+            <li><Link href="https://t.me/Ydoubletools" className="text-sm text-[#8a94a7] hover:text-[#0fb7b3]">Contact</Link></li>
             <li><Link href="mailto:support@activatorphone.com" className="text-sm text-[#8a94a7] hover:text-[#0fb7b3]">Support</Link></li>
           </ul>
         </div>
