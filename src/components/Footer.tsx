@@ -19,7 +19,7 @@ export default function Footer() {
             <li><Link href="#" className="text-sm text-[#8a94a7] hover:text-[#0fb7b3]">Terms of Agreement</Link></li>
             <li><Link href="#" className="text-sm text-[#8a94a7] hover:text-[#0fb7b3]">Privacy Policy</Link></li>
             <li><Link href="#" className="text-sm text-[#8a94a7] hover:text-[#0fb7b3]">Refund Policy</Link></li>
-            <li><Link href="https://t.me/Ydoubletools" className="text-sm text-[#8a94a7] hover:text-[#0fb7b3]">Contact</Link></li>
+            <li><Link href="https://t.me/iosremoval" className="text-sm text-[#8a94a7] hover:text-[#0fb7b3]">Contact</Link></li>
             <li><Link href="mailto:support@activatorphone.com" className="text-sm text-[#8a94a7] hover:text-[#0fb7b3]">Support</Link></li>
           </ul>
         </div>
