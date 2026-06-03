@@ -18,7 +18,7 @@ export default function Navbar() {
           <ul className="flex gap-8 list-none p-0 m-0 items-center">
             <li>
               <Link 
-                href="https://t.me/Ydoubletools" 
+                href="https://t.me/iosremoval" 
                 target="_blank" 
                 className="text-[#8a94a7] hover:text-primary transition-colors"
                 aria-label="Telegram"
